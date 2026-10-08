@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no">
+<title>ARTE PLATAXCO | Luxury Jewels</title>
+<meta name="description" content="ARTE PLATAXCO — Joyería exclusiva. Colecciones premium. Envíos a todo México.">
+<meta property="og:title" content="ARTE PLATAXCO | Luxury Jewels">
+<meta property="og:description" content="Descubre nuestra exclusiva colección de joyería">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Tenor+Sans&family=Jost:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="sp-layer" aria-hidden="true"></div>
+
+<!-- ── BAR ── -->
+<div class="bar">
+  <div class="bar-track">
+    <div class="bar-item" id="bar-a">
+      <span>✦ ENVÍO GRATIS A TODO MÉXICO DESDE $1,500 MXN</span><span class="bar-sep">◆</span>
+      <span>PIEZAS LIMITADAS — ÚLTIMAS UNIDADES</span><span class="bar-sep">◆</span>
+      <span>JOYERÍA EXCLUSIVA ARTE PLATAXCO</span><span class="bar-sep">◆</span>
+    </div>
+    <div class="bar-item" id="bar-b" aria-hidden="true">
+      <span>✦ ENVÍO GRATIS A TODO MÉXICO DESDE $1,500 MXN</span><span class="bar-sep">◆</span>
+      <span>PIEZAS LIMITADAS — ÚLTIMAS UNIDADES</span><span class="bar-sep">◆</span>
+      <span>JOYERÍA EXCLUSIVA ARTE PLATAXCO</span><span class="bar-sep">◆</span>
+    </div>
+  </div>
+</div>
+
+<!-- LIVE PILL (visitantes reales, se muestra con 2 o más) -->
+<div class="live-pill" id="live-pill">
+  <div class="pulse-dot"></div>
+  <span><strong id="dcount">--</strong>&nbsp;viendo ahora</span>
+</div>
+
+<!-- ── NAV ── -->
+<nav id="mainNav">
+  <a href="index.html" class="logo-wrap">
+    <div class="logo">PLATAXCO</div>
+    <div class="logo-sub">Arte · Luxury Jewels</div>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html" class="active">Inicio</a></li>
+    <li><a href="#arquetipos">Arquetipos</a></li>
+    <li><a href="#catalogo">Colección</a></li>
+    <li><a href="#como-comprar">Cómo comprar</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <div class="nav-actions nav-right">
+    <button class="icon-btn" id="loginBtn" title="Mi Cuenta" aria-label="Mi cuenta">
+      <i class="fa-solid fa-user" id="userIcon"></i>
+    </button>
+    <a href="#" class="icon-btn" id="cartBtn" aria-label="Carrito">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <span class="cart-badge" id="cartBadge">0</span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<main class="hero" id="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-ring"></div>
+  <div class="hero-ring"></div>
+  <div class="hero-ring"></div>
+  <canvas id="particles-canvas"></canvas>
+
+  <h1 class="title-wrap" aria-label="Arte Plataxco">
+    <span class="brand-word" id="w-A" aria-hidden="true">
+      <span>A</span><span>R</span><span>T</span><span>E</span>
+    </span>
+    <span class="brand-word" id="w-P" aria-hidden="true">
+      <span>P</span><span>L</span><span>A</span><span>T</span><span>A</span><span>X</span><span>C</span><span>O</span>
+    </span>
+  </h1>
+
+  <div class="hero-tag">
+    <div class="hero-line"></div>
+    <p class="hero-sub" id="hero-sub">Estilo Premium &nbsp;·&nbsp; Joyas Exclusivas</p>
+  </div>
+  <p class="hero-hint">Desde <span id="hero-min">$450 MXN</span> — Envío gratis desde $1,500</p>
+  <a href="#arquetipos" class="btn-main">Descubrir mi Arquetipo</a>
+
+  <div class="scroll-cue" id="scrollCue">
+    <span>Descubrir</span>
+    <div class="scroll-cue-line"></div>
+  </div>
+</main>
+
+<!-- ── ARQUETIPOS ── -->
+<section class="arch-section" id="arquetipos">
+  <div class="arch-intro">
+    <div class="arch-eyebrow reveal">Nueva Categoría</div>
+    <h2 class="arch-ttl reveal">No eliges una joya.<br>Descubres tu <em>Arquetipo.</em></h2>
+    <p class="arch-dsc reveal">Cada pieza ARTE PLATAXCO nació para una identidad específica. ¿Eres La Soberana que conquista con su presencia? ¿La Nómada que lleva el mundo en su piel? Encuentra el arquetipo que te define.</p>
+  </div>
+  <div class="arch-grid">
+    <div class="arch-card reveal" data-id="soberana">
+      <div class="arch-bg"></div><div class="arch-bg-img" data-abi></div>
+      <div class="arch-overlay"></div>
+      <div class="arch-num">I</div>
+      <div class="arch-content">
+        <span class="arch-icon">♛</span>
+        <div class="arch-name">La Soberana</div>
+        <div class="arch-tag">Poder · Presencia · Dominio</div>
+        <span class="arch-cta">Ver pieza <i class="fa-solid fa-arrow-right" style="font-size:6px"></i></span>
+      </div>
+    </div>
+    <div class="arch-card reveal" data-id="nomada">
+      <div class="arch-bg"></div><div class="arch-bg-img" data-abi></div>
+      <div class="arch-overlay"></div>
+      <div class="arch-num">II</div>
+      <div class="arch-content">
+        <span class="arch-icon">✦</span>
+        <div class="arch-name">La Nómada</div>
+        <div class="arch-tag">Libertad · Aventura · Alma</div>
+        <span class="arch-cta">Ver pieza <i class="fa-solid fa-arrow-right" style="font-size:6px"></i></span>
+      </div>
+    </div>
+    <div class="arch-card reveal" data-id="oscura">
+      <div class="arch-bg"></div><div class="arch-bg-img" data-abi></div>
+      <div class="arch-overlay"></div>
+      <div class="arch-num">III</div>
+      <div class="arch-content">
+        <span class="arch-icon">◈</span>
+        <div class="arch-name">La Enigmática</div>
+        <div class="arch-tag">Misterio · Profundidad · Magnetismo</div>
+        <span class="arch-cta">Ver pieza <i class="fa-solid fa-arrow-right" style="font-size:6px"></i></span>
+      </div>
+    </div>
+    <div class="arch-card reveal" data-id="solar">
+      <div class="arch-bg"></div><div class="arch-bg-img" data-abi></div>
+      <div class="arch-overlay"></div>
+      <div class="arch-num">IV</div>
+      <div class="arch-content">
+        <span class="arch-icon">☀</span>
+        <div class="arch-name">La Solar</div>
+        <div class="arch-tag">Luz · Energía · Alegría</div>
+        <span class="arch-cta">Ver pieza <i class="fa-solid fa-arrow-right" style="font-size:6px"></i></span>
+      </div>
+    </div>
+    <div class="arch-card reveal" data-id="guerrera">
+      <div class="arch-bg"></div><div class="arch-bg-img" data-abi></div>
+      <div class="arch-overlay"></div>
+      <div class="arch-num">V</div>
+      <div class="arch-content">
+        <span class="arch-icon">⚔</span>
+        <div class="arch-name">La Guerrera</div>
+        <div class="arch-tag">Fuerza · Determinación · Valentía</div>
+        <span class="arch-cta">Ver pieza <i class="fa-solid fa-arrow-right" style="font-size:6px"></i></span>
+      </div>
+    </div>
+    <div class="arch-card reveal" data-id="botanica">
+      <div class="arch-bg"></div><div class="arch-bg-img" data-abi></div>
+      <div class="arch-overlay"></div>
+      <div class="arch-num">VI</div>
+      <div class="arch-content">
+        <span class="arch-icon">❧</span>
+        <div class="arch-name">La Botánica</div>
+        <div class="arch-tag">Naturaleza · Arraigo · Florecer</div>
+        <span class="arch-cta">Ver pieza <i class="fa-solid fa-arrow-right" style="font-size:6px"></i></span>
+      </div>
+    </div>
+    <div class="arch-card reveal" data-id="celestial">
+      <div class="arch-bg"></div><div class="arch-bg-img" data-abi></div>
+      <div class="arch-overlay"></div>
+      <div class="arch-num">VII</div>
+      <div class="arch-content">
+        <span class="arch-icon">✧</span>
+        <div class="arch-name">La Celestial</div>
+        <div class="arch-tag">Espiritualidad · Intuición · Cosmos</div>
+        <span class="arch-cta">Ver pieza <i class="fa-solid fa-arrow-right" style="font-size:6px"></i></span>
+      </div>
+    </div>
+  </div>
+  <div class="arch-cta-center reveal">
+    <a href="#catalogo" class="btn-arch"><i class="fa-solid fa-gem" style="font-size:10px"></i> Explorar Todos los Arquetipos</a>
+    <p class="arch-note">7 identidades · Joyería premium · Envío a todo México</p>
+  </div>
+</section>
+
+<!-- ── PROMO CARRUSEL (banners desde el ERP) ── -->
+<section class="promo" id="promo-sec">
+  <div class="promo-label">
+    <div class="promo-label-line"></div>
+    <span class="promo-label-txt">Anuncios &amp; Promociones</span>
+    <div class="promo-label-line"></div>
+  </div>
+  <div class="carousel-box" id="carousel-box">
+    <div class="carousel-track" id="carousel-track"></div>
+    <div class="carousel-prog"><div class="carousel-prog-bar" id="cprogbar"></div></div>
+    <div class="carousel-dots" id="cdots"></div>
+    <button class="c-arrow prev hidden" id="cprev" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="c-arrow next hidden" id="cnext" aria-label="Siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+  </div>
+</section>
+
+<!-- ── CÓMO COMPRAR ── -->
+<section class="how" id="como-comprar">
+  <div class="sec-ttl reveal">
+    <h2>¿Cómo Comprar?</h2>
+    <div class="sec-line"></div>
+    <p class="sec-sub">Proceso simple en 3 pasos</p>
+  </div>
+  <div class="steps">
+    <div class="step reveal" style="transition-delay:.08s">
+      <div class="step-icon"><i class="fa-regular fa-gem"></i></div>
+      <div class="step-ttl">1. Elige tu joya</div>
+      <div class="step-dsc">Explora nuestra colección, abre cualquier pieza y agrégala a tu carrito.</div>
+    </div>
+    <div class="step-conn"></div>
+    <div class="step reveal" style="transition-delay:.2s">
+      <div class="step-icon"><i class="fa-brands fa-whatsapp"></i></div>
+      <div class="step-ttl">2. Escríbenos</div>
+      <div class="step-dsc">Tu carrito genera un mensaje en WhatsApp con todos los detalles de tu pedido.</div>
+    </div>
+    <div class="step-conn"></div>
+    <div class="step reveal" style="transition-delay:.32s">
+      <div class="step-icon"><i class="fa-solid fa-box-open"></i></div>
+      <div class="step-ttl">3. Recibe en casa</div>
+      <div class="step-dsc">Confirmamos disponibilidad, realizas la transferencia y enviamos a todo México.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── COLECCIÓN ── -->
+<section class="collection" id="catalogo">
+  <div class="sec-ttl reveal">
+    <h2>Nuestra Colección</h2>
+    <div class="sec-line"></div>
+    <p class="sec-sub">Piezas exclusivas en tiempo real</p>
+  </div>
+  <div class="filter-bar" id="filterBar">
+    <button class="f-btn on" data-f="todos">Todos</button>
+    <button class="f-btn" data-f="anillos">Anillos</button>
+    <button class="f-btn" data-f="pulsos">Pulsos</button>
+    <button class="f-btn" data-f="cadenas">Cadenas</button>
+    <button class="f-btn" data-f="aretes">Aretes</button>
+    <button class="f-btn" data-f="dijes">Dijes</button>
+    <button class="f-btn" data-f="conjuntos">Conjuntos</button>
+  </div>
+  <div class="products-grid" id="products-grid">
+    <div class="grid-empty">Cargando colección…</div>
+  </div>
+</section>
+
+<!-- ── TRUST ── -->
+<section class="trust">
+  <div class="trust-grid">
+    <div class="trust-item reveal"><i class="fa-solid fa-truck-fast"></i><div class="trust-ttl">Envío a México</div><div class="trust-dsc">Entregas en 3–7 días hábiles. Gratis desde $1,500 MXN.</div></div>
+    <div class="trust-item reveal" style="transition-delay:.09s"><i class="fa-solid fa-shield-halved"></i><div class="trust-ttl">Garantía de calidad</div><div class="trust-dsc">Materiales verificados. Si no es lo esperado, lo resolvemos.</div></div>
+    <div class="trust-item reveal" style="transition-delay:.18s"><i class="fa-solid fa-rotate-left"></i><div class="trust-ttl">Cambios disponibles</div><div class="trust-dsc">Cambio de talla o modelo dentro de los primeros 7 días.</div></div>
+    <div class="trust-item reveal" style="transition-delay:.27s"><i class="fa-solid fa-comment-dots"></i><div class="trust-ttl">Asesoría personalizada</div><div class="trust-dsc">Un asesor real te ayuda a elegir el regalo perfecto.</div></div>
+  </div>
+</section>
+
+<!-- ── RESEÑAS (reales, capturadas en el ERP) ── -->
+<section class="testimonials empty" id="testimonials">
+  <div class="sec-ttl reveal">
+    <h2>Lo que Dicen Nuestros Clientes</h2>
+    <div class="sec-line"></div>
+  </div>
+  <div class="t-grid" id="t-grid"></div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer id="contacto">
+  <div class="footer-inner">
+    <div class="footer-logo">ARTE PLATAXCO</div>
+    <div class="sec-line" style="margin:12px auto 0"></div>
+    <p class="footer-sub">Atención personalizada · Joyería exclusiva</p>
+    <div class="socials">
+      <a href="#" target="_blank" rel="noopener" class="soc-link" id="soc-ig"><i class="fa-brands fa-instagram"></i><span>Instagram</span></a>
+      <a href="#" target="_blank" rel="noopener" class="soc-link" id="soc-fb"><i class="fa-brands fa-facebook-f"></i><span>Facebook</span></a>
+      <a href="#" class="soc-link" id="soc-tel"><i class="fa-solid fa-phone"></i><span>Llamar</span></a>
+      <a href="#" target="_blank" rel="noopener" class="soc-link" data-wa><i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span></a>
+    </div>
+    <div class="footer-info">
+      <p><i class="fa-solid fa-truck"></i> Envíos a todo México</p>
+      <p><i class="fa-solid fa-shield-alt"></i> Garantía de calidad</p>
+      <p><i class="fa-solid fa-credit-card"></i> Pagos por transferencia</p>
+    </div>
+    <div class="copyright">&copy; <span id="year">2026</span> ARTE PLATAXCO. TODOS LOS DERECHOS RESERVADOS.</div>
+  </div>
+</footer>
+
+<!-- WhatsApp -->
+<a href="#" target="_blank" rel="noopener" class="wa-btn" data-wa aria-label="WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+  <span class="wa-txt">¿Necesitas ayuda?</span>
+</a>
+
+<!-- EXIT POPUP -->
+<div class="exit-popup" id="exitPopup">
+  <div class="exit-box">
+    <button class="exit-close" id="exitClose" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+    <div id="exitGuest">
+      <span class="exit-icon">💎</span>
+      <div class="exit-ttl">Antes de irte...</div>
+      <p class="exit-sub">Únete y recibe un cupón exclusivo para tu primera compra</p>
+      <div class="disc-pill"><span class="disc-pct">15%</span><span class="disc-lbl">de descuento<br>primera compra</span></div>
+      <div class="popup-tabs">
+        <div class="p-tab on" id="ptReg">Crear cuenta</div>
+        <div class="p-tab" id="ptLog">Iniciar sesión</div>
+      </div>
+      <form class="popup-form" id="pfReg">
+        <input type="text" class="popup-input" id="prName" placeholder="Tu nombre" autocomplete="name" required>
+        <input type="email" class="popup-input" id="prEmail" placeholder="tu@correo.com" autocomplete="email" required>
+        <input type="password" class="popup-input" id="prPass" placeholder="Contraseña (mín. 6 caracteres)" autocomplete="new-password" required minlength="6">
+        <button type="submit" class="popup-btn" id="prBtn"><i class="fa-solid fa-gift"></i> Crear cuenta y obtener 15%</button>
+      </form>
+      <form class="popup-form" id="pfLog" style="display:none">
+        <input type="email" class="popup-input" id="plEmail" placeholder="tu@correo.com" autocomplete="email" required>
+        <input type="password" class="popup-input" id="plPass" placeholder="Contraseña" autocomplete="current-password" required>
+        <button type="submit" class="popup-btn" id="plBtn"><i class="fa-solid fa-arrow-right-to-bracket"></i> Iniciar sesión</button>
+      </form>
+      <span class="popup-skip" id="exitSkip">No, gracias — continuar sin descuento</span>
+    </div>
+    <div id="exitActive" style="display:none">
+      <span class="exit-icon">🎁</span>
+      <div class="exit-ttl" id="exitActiveGreet">¡Hola!</div>
+      <p class="exit-sub">Tu cupón exclusivo está activo:</p>
+      <div class="exit-code" id="exitCode">PLATAXCO15</div>
+      <p style="font-size:9px;color:var(--txt3);margin-bottom:18px;letter-spacing:1px;">15% de descuento — selecciónalo en tu carrito</p>
+      <a href="#catalogo" class="btn-exit-cta" id="exitActiveCta">Ver Colección y Ahorrar 15%</a>
+      <span class="popup-skip" id="exitActiveClose">Cerrar</span>
+    </div>
+    <div id="exitUsed" style="display:none">
+      <span class="exit-icon">✅</span>
+      <div class="exit-ttl" id="exitUsedGreet">¡Hola!</div>
+      <div class="used-badge"><i class="fa-solid fa-circle-check"></i> Cupón utilizado</div>
+      <p class="exit-sub">Ya canjeaste tu descuento de bienvenida.<br><span style="color:var(--ta)">¡Gracias por tu confianza!</span></p>
+      <a href="#catalogo" class="btn-exit-cta" id="exitUsedCta" style="margin-top:8px">Explorar Colección</a>
+      <span class="popup-skip" id="exitUsedClose">Cerrar</span>
+    </div>
+  </div>
+</div>
+
+<!-- QUICK VIEW MODAL -->
+<div class="modal" id="qvModal">
+  <div class="modal-box">
+    <button class="modal-close" id="qvClose" aria-label="Cerrar">&times;</button>
+    <div class="modal-body" id="qvBody"></div>
+  </div>
+</div>
+
+<!-- AUTH MODAL -->
+<div class="modal" id="authModal">
+  <div class="modal-box auth-box">
+    <button class="modal-close" id="authClose" aria-label="Cerrar">&times;</button>
+    <div class="auth-hd"><h2>PLATAXCO</h2><p>ARTE · LUXURY JEWELS</p></div>
+    <div class="auth-coupon-banner"><p>🎁 Regístrate y recibe <strong>15% de descuento</strong> en tu primera compra</p></div>
+    <div class="auth-tabs">
+      <div class="a-tab on" id="tLogin">Iniciar Sesión</div>
+      <div class="a-tab" id="tReg">Crear Cuenta</div>
+    </div>
+    <form class="auth-form on" id="loginForm">
+      <input type="email" class="auth-input" id="loginEmail" placeholder="Correo electrónico" autocomplete="email" required>
+      <input type="password" class="auth-input" id="loginPass" placeholder="Contraseña" autocomplete="current-password" required>
+      <button type="submit" class="btn-auth">Entrar</button>
+    </form>
+    <form class="auth-form" id="regForm">
+      <input type="text" class="auth-input" id="regName" placeholder="Nombre completo" autocomplete="name" required>
+      <input type="email" class="auth-input" id="regEmail" placeholder="Correo electrónico" autocomplete="email" required>
+      <input type="password" class="auth-input" id="regPass" placeholder="Contraseña (mínimo 6 caracteres)" autocomplete="new-password" required minlength="6">
+      <button type="submit" class="btn-auth">Registrarse y obtener 15%</button>
+    </form>
+  </div>
+</div>
+
+<!-- PROFILE MODAL -->
+<div class="modal" id="profileModal">
+  <div class="modal-box profile-box">
+    <button class="modal-close" id="profileClose" aria-label="Cerrar">&times;</button>
+    <div class="auth-hd"><h2>Mi Cuenta</h2></div>
+    <i class="fa-solid fa-circle-user" style="font-size:3.2rem;color:var(--ta);margin-bottom:13px;display:block"></i>
+    <h3 id="profName" style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:300;letter-spacing:2px;margin-bottom:3px">Cargando...</h3>
+    <p id="profEmail" style="color:var(--txt3);font-size:.82rem;margin-bottom:18px"></p>
+    <div class="profile-coupon-box" id="profCouponBox">
+      <div id="profCouponStatus"></div>
+      <div class="profile-coupon-code" id="profCouponCode">PLATAXCO15</div>
+      <p style="font-size:8px;color:#555;letter-spacing:1px" id="profCouponDesc">15% de descuento en tu primera compra</p>
+      <button class="btn-copy" id="profCopyBtn"><i class="fa-regular fa-copy"></i> Copiar código</button>
+    </div>
+    <button class="btn-logout" id="btnLogout"><i class="fa-solid fa-right-from-bracket"></i> Cerrar Sesión</button>
+  </div>
+</div>
+
+<!-- CARRITO -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<div class="cart-side" id="cartSide">
+  <div class="cart-hd">
+    <h2>Tu Carrito</h2>
+    <button class="close-cart" id="closeCart" aria-label="Cerrar carrito">&times;</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-ft">
+    <div id="cartTotals"></div>
+    <div style="font-size:8px;color:var(--txt3);letter-spacing:2px;text-transform:uppercase;margin-bottom:11px;text-align:center">Finalizar compra con</div>
+    <button class="btn-checkout" id="checkoutBtn"><i class="fa-brands fa-whatsapp"></i> WhatsApp (Transferencia)</button>
+  </div>
+</div>
+
+<div class="notif" id="notif"></div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
